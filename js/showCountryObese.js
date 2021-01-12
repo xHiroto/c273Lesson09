@@ -4,7 +4,7 @@
                     console.log(countryID);
                     $.ajax({
                         type: "GET",
-                        url: "http://localhost/c273/P09/getCountryDetails.php",
+                        url: "getCountryDetails.php",
                         cache: false,
                         data: "id=" + countryID,
                         dataType: "JSON",
